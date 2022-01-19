@@ -1,23 +1,16 @@
-n , m , k = map(int, input().split())
+n, m , k = map(int, input().split())
 
-data = list(map(int, input().split()))
+index = list(map(int, input().split()))
 
-data.sort()
+index.sort()
 
-first = data[n-1]
-second = data[n-2]
+first = index[n-1]
+second = index[n-2]
 
-result = 0
+token = first*m + second
+numt = m/k
+numreg = m - numt
 
-while True:
-    for i in range(k):
-        if m == 0 :
-            break
-        result += first
-        m-=1
-        if m == 0:
-            break
-    result += second
-    m -= 1
+result = numt*token + numreg*first
 
 print(result)

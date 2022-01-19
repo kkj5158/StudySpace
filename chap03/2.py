@@ -7,18 +7,14 @@ data.sort()
 first = data[n-1]
 second = data[n-2]
 
-count = int(m/(k+1))
+nosecond =int(m/(k+1))
+nofirst = m - nosecond
 
-t = first * k + second
+print(nosecond)
+print(nofirst)
 
-tcount = int(m/k+1)
+result = 0
 
-tnp = int(m&k+1)
+result = first*nofirst + second * nosecond
 
-total = tcount * t + tnp * first
-
-print(total)
-
-
-
-58
+print(result)
