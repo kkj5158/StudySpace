@@ -1,14 +1,14 @@
-p, q = map(int, input().split())
+n, m = map(int, input().split())
 
 result = 0
 
-for i in range(p):
-    data = list(map(int, input().split))
+for i in range(n):
+    data = list(map(int, input().split()))
+
     min_value = 10001
-    for a in range(data):
-        min_value = min(a, min_value)
 
-    result = max(result, min_value)
+    for a in data:
+        if a < min_value:
+            min_value = a
 
-print(result)
-    
+
