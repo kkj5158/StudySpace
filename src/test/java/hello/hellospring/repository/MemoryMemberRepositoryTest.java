@@ -38,7 +38,7 @@ class MemoryMemberRepositoryTest {
     public void findByName(){
         //given
         Member member1 = new Member();
-        member1.setName("spring");
+        member1.setName("spring1");
         repository.save(member1);
 
 
