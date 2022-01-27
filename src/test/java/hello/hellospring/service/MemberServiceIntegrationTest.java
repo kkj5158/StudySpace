@@ -6,41 +6,37 @@ import hello.hellospring.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Commit;
+import org.springframework.transaction.annotation.Transactional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+@SpringBootTest
+@Transactional
+public class MemberServiceIntegrationTest {
 
-public class MemberServiceTest {
-
-    MemberService memberService;
-    MemberRepository repository;
+    @Autowired MemberService memberService;
+    @Autowired MemberRepository memberRepository;
 
 
-    @BeforeEach
-    public void beforeEach(){
-        repository = new MemoryMemberRepository();
-        memberService = new MemberService(repository);
-    }
-
-    @AfterEach
-    public void afterEach(){
-    repository.clearStore();
-}
 
     @Test
+    //@Commit
     public void 회원가입() throws Exception{
 
         //given
         Member member = new Member();
-        member.setName("hello");
+        member.setName("spring23");
 
         //when
         Long saveId = memberService.join(member);
 
         //then
 
-        Member findMember = repository.findById(saveId).get();
+        Member findMember = memberRepository.findById(saveId).get();
 
         // 검증코드
 
