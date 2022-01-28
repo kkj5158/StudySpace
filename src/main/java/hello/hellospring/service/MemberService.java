@@ -23,6 +23,8 @@ public class MemberService {
      */
 
     public Long join(Member member){
+
+
         validateDuplicateMember(member); // 메소드 추출
         memberRepository.save(member);
         return member.getId();
