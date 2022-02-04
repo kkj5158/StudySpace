@@ -1,19 +1,33 @@
 package hello.core.Order;
 
 import hello.core.discount.DiscountPolicy;
-import hello.core.discount.FixDiscountPolicy;
-import hello.core.discount.RateDiscountPolicy;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
-import hello.core.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService {
 
-    private final MemberRepository memberRepository = new
-            MemoryMemberRepository();
+    private final MemberRepository memberRepository ;
+    private final DiscountPolicy discountPolicy;
 
-    private final DiscountPolicy discountPolicy = new RateDiscountPolicy();
+    /*
+    private final MemberRepository memberRepository = new
+            MemoryMemberRepository(); -> appconfig로의 전환 .
+          **   개방 폐쇄 원칙과 의존성 주입 원칙의 준수 **
+
+
+     */
+    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+        this.memberRepository = memberRepository;
+        this.discountPolicy = discountPolicy;
+    }
+
+
+
+    /*
+   // private final DiscountPolicy discountPolicy = new RateDiscountPolicy();
     //private final DiscountPolicy discountPolicy = new FixDiscountPolicy();
+    -> appconfig로의 전환 .
+     */
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {

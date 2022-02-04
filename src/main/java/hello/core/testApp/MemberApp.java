@@ -1,9 +1,12 @@
 package hello.core.testApp;
 
+import hello.core.AppConfig;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import hello.core.member.MemberService;
 import hello.core.member.MemberServiceImpl;
+
+/* 테스트 코드 없이 테스트 진행하기 */
 
 public class MemberApp {
 
@@ -11,7 +14,9 @@ public class MemberApp {
 
         //given
 
-        MemberService memberService = new MemberServiceImpl();
+        AppConfig appConfig = new AppConfig();
+
+        MemberService memberService = appConfig.memberService();
         Member memberA = new Member(1L, "memberA", Grade.VIP);
 
         //when

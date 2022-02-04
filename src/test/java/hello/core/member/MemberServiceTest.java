@@ -1,11 +1,23 @@
 package hello.core.member;
 
+import hello.core.AppConfig;
 import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class MemberServiceTest {
 
-    MemberService memberService = new MemberServiceImpl();
+    MemberService memberService ;
+
+    /*
+    이는 스프링 컨테이너가 하는 역할과 동일하다.
+     */
+
+    @BeforeEach
+    public void beforeEach() {
+        AppConfig appConfig = new AppConfig();
+        memberService = appConfig.memberService();
+    }
 
     @Test
     void join(){
