@@ -21,13 +21,13 @@ class RateDiscountPolicyTest {
      - > APPCONFIG 로의 전환, ocp와 dp 원칙 지키게끔 .
      */
 
-    RateDiscountPolicy policy;
+    DiscountPolicy policy;
     OrderService orderService;
 
     @BeforeEach
     public void beforeEach() {
         AppConfig appConfig = new AppConfig();
-        policy = appConfig.
+        policy = appConfig.discountPolicy();
         orderService = appConfig.orderService();
     }
 

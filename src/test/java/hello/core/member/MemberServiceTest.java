@@ -3,6 +3,7 @@ package hello.core.member;
 import hello.core.AppConfig;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class MemberServiceTest {
@@ -20,6 +21,7 @@ class MemberServiceTest {
     }
 
     @Test
+    @DisplayName("가입된 member의 정보가 올바르게 저장되어야한다.")
     void join(){
         //given
         Member member = new Member(1L, "memberA", Grade.VIP);

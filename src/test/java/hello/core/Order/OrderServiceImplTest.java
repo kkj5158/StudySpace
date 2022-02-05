@@ -8,6 +8,7 @@ import hello.core.member.MemberServiceImpl;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class OrderServiceImplTest {
@@ -34,6 +35,7 @@ class OrderServiceImplTest {
 
 
     @Test
+    @DisplayName("VIP가 주문생성시 할인이 적용된 금액이 주문으로 들어가야 한다.")
     void createOrder() {
 
         //given
