@@ -1,0 +1,25 @@
+https://wikidocs.net/128189
+list와 tuple, Array(배열)
+list 자료형 특징
+1. 리스트 안에 리스트 가능(2차 배열, 3차 배열 등...) 
+2. 리스트 안에 여러 자료형 가능(None도 들어감)
+주로 배열과 배열을 이용한 자료구조를 list를 통해 구현한다. 
+그래서 이를 이용하기 전에 알아야할 몇가지 중요한 특징들이 있다.
+
+lst = [1, 2, 3, 4]
+lst = list(range(1,5))
+lst[0] == lst[-4]  # True
+list index 는 0과 -len(lst)가 같다.
+
+1차원 배열
+입력, 배열 만들기
+lst = [0, 1, 2, 3] or
+lst = [0]*2 👍lst = [0 for col in range(2)] 
+🔆두 개의 결과는 [0, 0]으로 같지만, 구조적으로 다르다. 
+그 특징은 2차원 배열에서 두드러지게 나타난다.
+
+출력
+반복문 사용
+for i in lst: 
+  print(i)
+enumerate() 사용 (index와 value모두 출력할 때,)
