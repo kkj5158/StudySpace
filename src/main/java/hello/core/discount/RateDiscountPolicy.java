@@ -16,3 +16,5 @@ public class RateDiscountPolicy implements DiscountPolicy {
         }
     }
 }
+
+/* 전체 프로젝트 구상 및 설명 기획하기 */
