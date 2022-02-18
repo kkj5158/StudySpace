@@ -1,7 +1,12 @@
-# 0 인덱스와 1 인덱스의 원소 교체하기
+n = int(input())
 
-array = [3,5]
-array[0], array[1] = array[1], array[0]
+array = []
+for i in range:
+    input_data = input().split()
 
-print(array)
+    array.append((input_data[0], int(input_data[1])))
 
+array = sorted(array, key=lambda student: student[1])
+
+for student in array:
+    print(student[0], end=' ')

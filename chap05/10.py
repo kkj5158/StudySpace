@@ -1,16 +1,29 @@
-# 음료수 얼려먹기 
-
-# 입력조건의 만족 -> 맵을 어떻게 입력받을 것인가? -> 2차원 배열? 
-
 
 n, m = map(int, input().split())
 
-map = []
+graph = []
 
 for i in range(n):
-    map.append(list(map(int, input()))) # ->2차원 배열의 형성 ? 
+    graph.append(list(map(int, input())))
 
-# 경로탐색 알고리즘 ? 
+def dfs(x,y):
+    if x<= -1 or x>= n or y<= -1 or y>=m :
+        return False
+    
+    if graph[x][y] == 0:
+        graph[x][y] = 1
+        dfs(x-1, y)
+        dfs(x, y-1)
+        dfs(x+1, y)
+        dfs(x, y+1)
+        return True
+    return False
 
-#스택과 큐 , 그리고 경로탐색에 필요한 알고리즘 공부하기 
-# DFS 와 BFS 에 대한 이해도. 
+result = 0
+
+for i in range(n):
+    for j in range(m):
+         if dfs(i,j) == True:
+            result +=1 
+
+print(result)
