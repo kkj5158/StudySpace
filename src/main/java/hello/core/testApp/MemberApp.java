@@ -10,6 +10,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 /* 테스트 코드 없이 테스트 진행하기 */
 
+/* 스프링 기본 빨리 끝내기 */
+
 public class MemberApp {
 
     public static void main(String[] args){
