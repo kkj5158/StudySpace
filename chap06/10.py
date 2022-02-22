@@ -1,12 +1,12 @@
 
 n = int(input())
 
-array = []
+numarray = []
 
 for i in range(n):
-    array.append(int(input()))
+    numarray.append(int(input()))
 
+numarray.sort(reverse=True)
 
-array = sorted(array, reverse=True)
-for i in array:
-    print(i, end=' ')
+print(numarray)
+
