@@ -12,4 +12,7 @@ for i in range(h+1):
             
 print(count)
 
+
+
+
 # claer !! 
