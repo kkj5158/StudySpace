@@ -8,9 +8,25 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name="requestHeaderServlet", urlPatterns = "/requests-header")
-
+@WebServlet(name="requestHeaderServlet", urlPatterns = "/request-header")
 public class RequestHeaderServlet extends HttpServlet {
+
+    /*
+
+    서블릿 기능을 활용하여, 전송받은 http 의 내부정보를 출력해본다.
+
+    서블릿 컨테이너는 서블릿의 내부정보를 담으면서도 (http 메시지를 기반으로 만들어진 , http 메시지를 활용하는 다양한
+    메소드들을 지원한다.
+
+    ** 서블릿은 개발자가 HTTP 요청메세지를 편리하게 사용할 수 있도록 개발자 대신에 HTTP 요청 메시지를 파싱한다. **
+
+    그리고 이 결과를 HTTPservletRequet 객체에 담아서 제공한다.
+
+
+
+
+     */
+
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
