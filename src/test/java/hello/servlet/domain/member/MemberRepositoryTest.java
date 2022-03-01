@@ -36,7 +36,9 @@ class MemberRepositoryTest {
     @Test
     void findById() {
         // given
+
         // when
+
         // then
     }
 
@@ -61,7 +63,9 @@ class MemberRepositoryTest {
     @Test
     void clearStore() {
         //given
+
         //when
+
         //then
     }
 }
