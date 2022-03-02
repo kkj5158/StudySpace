@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
  /*
-        서블릿은 오직 컨트롤러만 역할을 한다, -> view는 다른 패키지에 있는 jsp 파일이 담당한다.
+      서블릿은 오직 컨트롤러만 역할을 한다, -> view는 다른 패키지에 있는 jsp 파일이 담당한다.
          */
 
 
