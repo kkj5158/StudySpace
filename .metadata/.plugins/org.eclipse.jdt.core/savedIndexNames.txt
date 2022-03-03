@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+A:\WorkSpace\Code-test\Kakao\2022년 2차과제\.metadata\.plugins\org.eclipse.jdt.core
+1322258371.index
+3658179260.index
+1865797976.index
