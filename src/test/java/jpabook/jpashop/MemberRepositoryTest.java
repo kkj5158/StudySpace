@@ -26,7 +26,7 @@ class MemberRepositoryTest {
         Member member = new Member();
         member.setUsername("memberA");
 
-        //when
+       //when
         Long saveId = memberRepository.save(member);
         Member findMember = memberRepository.find(saveId);
 
