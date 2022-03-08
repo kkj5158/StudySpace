@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public class MemberRepository {
 
-    @PersistenceContext
+    @PersistenceContext // 스프링 JPA 모듈을 등록하여 관리한다.
     private EntityManager em;
 
     public void save(Member member) {
@@ -26,6 +26,8 @@ public class MemberRepository {
     }
 
     public List<Member> findByName(String name) {
+
+        // em 매니저를 통해서 JPA 기능을 수행한다 // JPA에는 JPQL 이라는 SQL 과 닮은 쿼리가 있다.
         return em.createQuery("select m from Member m where m.name = :name", Member.class)
                 .setParameter("name", name)
                 .getResultList();

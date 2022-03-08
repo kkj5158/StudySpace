@@ -12,6 +12,9 @@ import org.springframework.transaction.annotation.Transactional;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
+// 오류 원인 파악하고 체크하기
+
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Transactional
@@ -44,5 +47,6 @@ public class MemberServiceTest {
         memberService.join(member2); //예외가 발생해야 한다.
         //Then
         fail("예외가 발생해야 한다.");
+
     }
 }
