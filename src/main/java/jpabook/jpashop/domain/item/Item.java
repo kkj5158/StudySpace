@@ -20,4 +20,10 @@ public abstract class Item {
 
     @ManyToMany(mappedBy = "items")
     private List<Category> categories = new ArrayList<Category>();
+
+    public void removeStock(int count) {
+    }
+
+    public void addStock(int count) {
+    }
 }

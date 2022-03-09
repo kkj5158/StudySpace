@@ -50,7 +50,7 @@ public class Order {
         delivery.setOrder(this);
     }
 
-    public static Order createOrder(Member member, Delivery delivery, OrderItem orderItems) {
+    public static Order createOrder(Member member, Delivery delivery, OrderItem... orderItems) {
         Order order = new Order();
         order.setMember(member);
         order.setDelivery(delivery);
