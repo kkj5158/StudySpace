@@ -6,6 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import javax.persistence.*;
+
 import java.time.LocalDateTime;
 
 @Entity
@@ -16,14 +17,14 @@ import java.time.LocalDateTime;
 public class Item {
 
     @Id
-    @Column(name="item_id")
+    @Column(name = "item_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(nullable = false, length = 50)
     private String itemNm;
 
-    @Column(name="price", nullable = false)
+    @Column(name = "price", nullable = false)
     private int price;
 
     @Column(nullable = false)
@@ -39,7 +40,4 @@ public class Item {
     private LocalDateTime regTime;
 
     private LocalDateTime updateTime;
-
-
-
 }
