@@ -1,6 +1,4 @@
 
-
-
 nstr = input()
 
 intstr = list(map(int, list(nstr)))
