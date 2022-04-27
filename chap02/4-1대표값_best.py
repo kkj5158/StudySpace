@@ -5,19 +5,24 @@ sys.stdin=open("4.txt", "rt")
 n = int(input())
 a = list(map(int, input().split()))
 
-avg = round(sum(a)/n)
+avg = sum(a)/n
+
+avg = avg + 0.5
+
+avg = int(avg)
 
 min = 2147000000
 
 for idx, x in enumerate(a):
     tmp = abs(x-avg)
-    if tmp<min:
+    if tmp < min:
         min = tmp
-        score=x
-        res = idx+1
-    elif tmp==min:
-        if x>score:
-            score=x
-            res=idx+1
+        res = idx + 1
+    elif tmp == min:
+        if x>a[res-1]:
+            min = tmp
+            res = idx + 1
+        
+
 
 print(avg, res)
