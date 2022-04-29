@@ -1,42 +1,44 @@
 package hellojpa;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import javax.xml.bind.annotation.XmlInlineBinaryData;
+
 
 @Entity
+@Table(name="MEMBER")
 public class Member {
-    @Id @GeneratedValue
-    private Long id;
 
-    @Column(name = "USERNAME")
+    @Id
+    @Column(name = "ID")
+    private String id;
+
+    @Column(name="NAME")
     private String name;
 
-    @Column(name = "TEAM_ID")
-    private Long teamId;
+    //매핑 정보가 없는 필드
+    private Integer age;
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public String getName() {
+    public String getUserName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setUserName(String name) {
         this.name = name;
     }
 
-    public Long getTeamId() {
-        return teamId;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setTeamId(Long teamId) {
-        this.teamId = teamId;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 }
