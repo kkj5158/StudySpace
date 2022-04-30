@@ -6,27 +6,21 @@ n = int(input())
 
 a = list(map(int, input().split()))
 
-# 앞의 수부터 뒤로 옮겨간다. 
+# 뒤의 수부터 앞으로 옮겨간다. 
+
 
 def reverse(x):
-    max = 10000
-    min = 1
+    q = 10 
+    newx = 0
+     
 
-    newx = 0 
-    
-    while  x > 0 :
-        q = x // max
-        if (q== 0):
-            max = max//10
-        else:
-            newx = newx + q*min
-            x = x - q*max
-            min = min*10
-            max = max//10
+    while x > 0 :
+      r = x % q
+      x = x // q
+      newx = newx*10 + r
 
-    return newx         
-
-
+    return newx
+        
 
 def isPrime(x):
     if x == 1 :
