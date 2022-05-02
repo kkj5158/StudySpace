@@ -1,33 +1,41 @@
-from curses.ascii import isalpha
 import sys
 sys.stdin=open("2.txt", "rt")
 
-s = input()
+
+def getnumdivsior(n):
+    cnt = 0
+    for i in range(1, n+1):
+        if n%i == 0:
+            cnt += 1 
+    return cnt
 
     
-
-
-
-#def getdivior(n):
 
 
 def getnumfrom(str):
     num = ''
     for c in str:
-        if c.isdigit():
+        if c.isdecimal():
             num = num + c
-    
-    int(num)
+    num = int(num)
 
     return num
 
-print(getnumfrom(s))
+#print(getnumfrom(s))
+#print(getnumdivior(12))
+
+s = input()
+
+n = getnumfrom(s)
+num = getnumdivsior(n)
+
+
 
 
 # 자연수 출력 
 
-print()
+print(n)
 
 # 약수의 갯수 출력 
 
-print()
+print(num)

@@ -1,6 +1,14 @@
-s1 = "23fjdik23"
+def reverse(x):
+    x = str(x)
+    newx = ''
 
-for c in s1:
-    print(c)
+    for c in x:
+        newx = c + newx
+
+    print(newx)
 
     
+    return int(newx)
+  
+
+print(reverse(3700))
