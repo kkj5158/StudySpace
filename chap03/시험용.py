@@ -1,14 +1,6 @@
-def reverse(x):
-    x = str(x)
-    newx = ''
 
-    for c in x:
-        newx = c + newx
+a = []
 
-    print(newx)
+a.append(0)
 
-    
-    return int(newx)
-  
-
-print(reverse(3700))
+a = list(input().split for _ in range())
