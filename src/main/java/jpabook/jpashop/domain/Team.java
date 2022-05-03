@@ -7,21 +7,29 @@ import java.util.List;
 @Entity
 public class Team {
 
+
     @Id
-    @GeneratedValue
     @Column(name = "TEAM_ID")
-    private Long id;
+    private String id;
 
     private String name;
 
     @OneToMany(mappedBy = "team")
     private List<Member> members = new ArrayList<Member>();
 
-    public Long getId() {
+    public Team() {
+    }
+
+    public Team(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -33,11 +41,6 @@ public class Team {
         this.name = name;
     }
 
-    public List<Member> getMembers() {
-        return members;
-    }
-
-    public void setMembers(List<Member> members) {
-        this.members = members;
+    public <E> List<E> getMembers() {
     }
 }
