@@ -1,4 +1,4 @@
-package hellojpa;
+package jpabook.jpashop;
 
 import javax.persistence.*;
 import java.util.List;
