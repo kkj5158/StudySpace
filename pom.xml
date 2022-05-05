@@ -8,7 +8,6 @@
     <groupId>jpabook</groupId>
     <artifactId>jpashop</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>2.연관관계매핑-실전예제</name>
 
     <dependencies>
         <!-- JPA 하이버네이트 -->
