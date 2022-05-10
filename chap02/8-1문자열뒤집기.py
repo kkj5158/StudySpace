@@ -25,9 +25,6 @@ def reverse(x):
     return int(newx)
   
 
-
-
-
 def isPrime(x):
     if x == 1 :
         return 0
