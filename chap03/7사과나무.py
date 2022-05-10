@@ -1,5 +1,4 @@
 import sys
-from turtle import right
 sys.stdin=open("7.txt", "rt")
 
 n = int(input())
