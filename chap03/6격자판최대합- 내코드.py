@@ -35,13 +35,15 @@ for i in range(n):
 sum = 0
 
 for i,j in zip(range(n), range(n)):
-    sum = map[i][j]
+    sum += map[i][j]
     
 if sum > max :
     max = sum
 
+sum = 0
+
 for i, j in zip(range(n-1,-1,-1), range(n-1,-1,-1)):
-    sum = map[i][j]
+    sum += map[i][j]
 
 if sum > max:
         max = sum 
