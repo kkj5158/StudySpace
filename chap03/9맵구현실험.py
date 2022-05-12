@@ -6,12 +6,15 @@ n = int(input())
 
 
 # 맵 세팅 
+
 mp = []
 
-for _ in range(n+1):
-    mp[0].append(0)
+mp = [list(map(int, input().split())) for _ in range(n)]
 
-mp.append(list(map(int, input().split())) for _ in range(n))
+wall = [0]*(n+2)
 
+print(wall)
 
 print(mp)
+
+# 맵 구현하기 
