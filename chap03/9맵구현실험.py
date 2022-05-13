@@ -11,10 +11,22 @@ mp = []
 
 mp = [list(map(int, input().split())) for _ in range(n)]
 
-wall = [0]*(n+2)
+wall = [0]*n
 
-print(wall)
+mp.insert(0,wall)
+mp.append(wall)
+
+for x in mp:
+    x.insert(0,0)
+    x.append(0)
+
 
 print(mp)
+# 이런 접근 방식은 너무 까다롭다. 
+
+
+
+
+
 
 # 맵 구현하기 
