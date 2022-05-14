@@ -1,5 +1,4 @@
 import sys
-from turtle import right
 sys.stdin=open("9.txt", "rt")
 
 
