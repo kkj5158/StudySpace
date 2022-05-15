@@ -18,16 +18,19 @@ check = [0]*9
 check.insert(0,1)
 
 
+# 
+
 #print(check)
 
 for x in mp:
     for n in x:
         check[n] = 1
     if sum(check) == 10:
-        for c in check[1:]:
-            c=0
+        for i in range(1,n+1):
+            check[i]=0
+            
     else:
-        print("No")
+        print("NO")
         sys.exit(0)
             
           
@@ -39,34 +42,31 @@ for j in range(9):
         check[mp[i][j]] = 1
 
     if sum(check) == 10:
-        for c in check[1:]:
-            c=0
+        for i in range(1,n+1):
+            check[i]=0
     else:
-        print("No")
+        print("NO")
         sys.exit(0)
 
 
-# 3*3 보드 검사  -> 4중 for 문으로 구현해보기 
-
-# 첫번째 줄 
-
-i,j = 0,0
-
-for i in range
+a = [0, 3 ,6]
 
 
+for i in a:
+    for j in a:
+        for m in range(3):
+            for n in range(3):
+                check[mp[i+m][j+n]] = 1
 
-
-# 두번째 줄 
-
-i,j = 0,3
-
-# 세번째 줄
-
-i,j = 0,6
-
-
-
+        if sum(check) == 10:
+            for i in range(1,n+1):
+                check[i]=0
+        else:
+            print("NO")
+            sys.exit(0)        
+    
+print("YES")
+        
 
 
 
