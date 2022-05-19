@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("3.txt", "rt")
+sys.stdin=open("chap03/3.txt", "rt")
 
 # 함수파트 
 

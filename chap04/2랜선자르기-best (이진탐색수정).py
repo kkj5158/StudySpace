@@ -1,4 +1,6 @@
 
+import sys
+sys.stdin=open("chap04/2.txt", "rt")
 
 k, n = map(int, input().split())
 
@@ -33,16 +35,25 @@ while True:
     
     if cnt >= n:
         lar = max(mid, lar)
-        lt = mid
+        lt = mid + 1
         mid = (lt+rt)//2
     
     elif cnt < n :
-        rt = mid
+        rt = mid + 1
         mid = (lt+rt)//2
 
 # 탈출 조건 생각하기 
-    if mid==lt or mid == rt:
+    if lt>=rt:
         break
         
 
 print(lar)
+
+# 문제는 답이 하나가 아니다라는 부분이구나 . 
+
+
+
+
+
+    
+    

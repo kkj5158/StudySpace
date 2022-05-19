@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("10.txt", "rt")
+sys.stdin=open("chap03/10.txt", "rt")
 
 
 def check(a):

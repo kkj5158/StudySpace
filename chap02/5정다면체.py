@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("5.txt", "rt")
+sys.stdin=open("chap02/5.txt", "rt")
 
 # list 사용하여서 그리디 적용 이중 for문 사용해서 모든 경우의 수, list에 넣기, 각각의 갯수를 구하고 가장 높은 확률 구하기
 

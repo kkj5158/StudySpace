@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("2.txt", "rt")
+sys.stdin=open("chap03/2.txt", "rt")
 
 
 def getnumdivsior(n):

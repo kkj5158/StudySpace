@@ -1,6 +1,6 @@
 import sys
 from turtle import right
-sys.stdin=open("9.txt", "rt")
+sys.stdin=open("chap03/9.txt", "rt")
 
 
 n = int(input())

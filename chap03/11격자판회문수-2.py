@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("11.txt", "rt")
+sys.stdin=open("chap03/11.txt", "rt")
 
 mp = [list(map(int, input().split())) for _ in range(7)]
 

@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("9.txt", "rt")
+sys.stdin=open("chap02/9.txt", "rt")
 
 n = int(input())
 

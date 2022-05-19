@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("2.txt")
+sys.stdin=open("chap04/2.txt", "rt")
 
 k, n = map(int, input().split())
 
