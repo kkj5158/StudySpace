@@ -6,6 +6,7 @@ def Count(len):
     cnt = 0
     for x in Line:
         cnt += (x//len)
+    return cnt
 
 k, n = map(int, input().split())
 
@@ -36,4 +37,5 @@ while lt>=rt:
 print(res)
 
 
+# 오류 해결하기 
 
