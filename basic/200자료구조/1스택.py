@@ -15,7 +15,14 @@ for _ in range(n):
 # 스택에 집어넣기 . 빼기 명령어들 실행 . 
 
 for x in comm:
-    c , d = map()
+    # push 명령어 이면 
+    if len(x) == 2:
+        c , d = map(str, x)
+        d = int(d)
+        
+        stack.append(d)
+    elif str()
+    
     
 
 
