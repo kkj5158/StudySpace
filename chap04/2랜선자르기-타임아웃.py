@@ -18,6 +18,7 @@ total = sum(a)
 elen = total // n
 
 
+# 이분탐색이 아니라 선형탐색을 사용하면은 타임아웃이 발생한다. 
 
 while True:
     cnt = 0

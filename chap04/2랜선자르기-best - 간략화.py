@@ -45,6 +45,9 @@ while True:
 # 탈출 조건 생각하기 
     if mid==lt or mid == rt:
         break
+
+
+# 다음과 같은 조건들보다는 -> lt = mid + 1 , rt = mid + 1 의 조건들이 더욱 좋다 ! 
         
 
 print(lar)

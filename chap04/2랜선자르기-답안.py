@@ -26,7 +26,7 @@ for i in range(k):
 lt = 1
 rt = largest
 
-while lt>=rt:
+while lt<=rt:
     mid=(lt+rt)//2
     if Count(mid)>=n:
         res = mid
@@ -37,5 +37,8 @@ while lt>=rt:
 print(res)
 
 
-# 오류 해결하기 
+"""
+lt = mid , rt = mid 가 아니라 lt=mid+1 , rt=mid+1 로 코드를 작성하고 나서 , lt>rt 일 경우에 반복문을 멈추면 된다.
+->lt가 rt 보다 커지는 경우는 탐색이 끝난경우이다. 
+"""
 
