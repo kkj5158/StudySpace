@@ -5,9 +5,10 @@ n = int(input())
 
 
 comm = []
+
 stack = []
 
-# push 명령어는 어떻게 처리할 것인가 
+# push 명령어는 어떻게 처리할 것인가 -> 단위별로 쪼개버린다. 
 
 for _ in range(n):
     comm.append(list(map(str,input().split())))
@@ -27,3 +28,5 @@ for x in comm:
 
 
 print(comm)
+
+# 이런 접근은 비효율적이나 한번 완성해보자 . 
