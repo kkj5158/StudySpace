@@ -39,17 +39,19 @@ while True:
         mid = (lt+rt)//2
     
     elif cnt < n :
-        rt = mid + 1
+        rt = mid - 1
         mid = (lt+rt)//2
 
 # 탈출 조건 생각하기 
-    if lt>=rt:
+    if lt>rt:
         break
         
 
 print(lar)
 
 # 문제는 답이 하나가 아니다라는 부분이구나 . 
+
+# 이진 탐색의 탈출 조건은 lt가 rt보다 커졌을때 이다. 
 
 
 
