@@ -3,52 +3,28 @@ sys.stdin=open("chap04/5.txt", "rt")
 
 n = int(input())
 
+meeting = []
+
+
 for _ in range(n):
-    a, b = map(int,input().split)
+    s, e = map(int,input().split())
+    meeting.append((s,e))
+
+# 정렬 
+meeting.sort(key=lambda x: (x[1], x[0]))
+
+et = 0
+
+cnt = 0
+
+for s, e in meeting:
+    if s>=et:
+        et = e
+        cnt += 1
+
+
+print(cnt)
 
 
 
-"""
-이어서 할 수 있는 회의의 조건 
-
-첫번재 회의의 종료 시간보다 
-두번째 회의의 시작시간이 같거나 커야한다 .
-
-회의를 결정하고 , 카운터 + 1 
-다시 다음 회의를 결정하고 , 카운터 + 1 
-
-시작시간을 기준으로 회의들을 정렬해둔다. 
-
-회의시간이 가장 짧은 회의들을 골라간다. 
-
-
-"""
-
-"""
-1 2
-1 4 
-1 5
-2 3
-2 5
-2 7
-3 8 
-3 10
-4 5
-4 8
-4 9
-4 10
-5 10
-5 16
-6 7
-6 8
-6 10
-7 8
-7 10 
-7 11
-8 9
-8 10
-8 11
-8 12
-
-"""
 

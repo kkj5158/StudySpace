@@ -1,14 +1,18 @@
 import sys
 sys.stdin=open("chap04/4.txt", "rt")
 
+
+# 몇마리의 말을 배치할 수 있냐 . 
+
 def Count(len):
-    cnt=1
-    ep=Line[0]
-    for i in range(1, n):
+    cnt = 1
+    ep = Line[0]
+    for i in range(1,n):
         if Line[i]-ep>=len:
             cnt+=1
             ep=Line[i]
     return cnt
+
 
 n, c = map(int, input().split())
 
@@ -24,14 +28,14 @@ lt = 1
 
 rt = Line[n-1]
 
-
-
 while lt<=rt:
     mid=(lt+rt)//2
     if Count(mid)>=c:
-        res=mid
-        lt=mid+1
+        res = mid
+        lt = mid+1
     else:
-        rt=mid-1
+        rt = mid-1
 
 print(res)
+
+
