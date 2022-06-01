@@ -9,3 +9,5 @@ def isPrime(x):
                 return False # 소수가 아니다 .
         else:
             return True # 소수이다. 
+
+# for-else 문 : break나 return 문이 걸리지 않고 모든 for문이 돌아갔을때 발동 

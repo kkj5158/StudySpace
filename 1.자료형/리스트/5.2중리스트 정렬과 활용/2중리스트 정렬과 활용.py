@@ -9,6 +9,14 @@ array.sort(key=lambda x:x[0])
 
 print(array)
 
+
+# int를 기준으로 정렬하기 -> -를 붙이면 역순으로 정렬이 가능하다 
+# 기본정렬은 언제나 오름차순, -를 붙이면 역순인 내림차순으로 정렬이 가능하다. 
+
+array.sort(key=lambda x:-x[0])
+
+print(array)
+
 # str를 기준으로 정렬하기 
 
 array.sort(key=lambda x:x[1])
