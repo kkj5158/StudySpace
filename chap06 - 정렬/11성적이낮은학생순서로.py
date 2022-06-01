@@ -1,3 +1,5 @@
+import sys
+sys.stdin=open("chap06 - 정렬/11.txt", "rt")
 
 n = int(input())
 

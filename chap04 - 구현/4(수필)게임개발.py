@@ -2,6 +2,9 @@
 # 입력값 받기2 / 케릭터 입력값 받기 
 # 맵 입력받기 
 
+import sys
+sys.stdin=open("chap04 - 구현/4.txt", "rt")
+
 n, m = map(int, input().split())
 
 d = [[0] * m for _ in range(n)]

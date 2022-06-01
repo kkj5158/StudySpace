@@ -1,3 +1,7 @@
+import sys
+sys.stdin=open("chap06 - 정렬/12.txt", "rt")
+
+
 n, k = map(int, input().split())
 
 a = list(map(int, input().split()))

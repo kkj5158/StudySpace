@@ -1,4 +1,7 @@
-n = map(int, input().split())
+import sys
+sys.stdin=open("chap03 - 그리디/1.txt", "rt")
+
+n = int(input())
 count = 0
 
 

@@ -1,3 +1,6 @@
+import sys
+sys.stdin=open("chap03 - 그리디/2.txt", "rt")
+
 n, m, k = map(int , input().split())
 
 data = list(map(int, input().split()))
@@ -10,8 +13,8 @@ second = data[n-2]
 nosecond =int(m/(k+1))
 nofirst = m - nosecond
 
-print(nosecond)
-print(nofirst)
+#print(nosecond)
+#print(nofirst)
 
 result = 0
 

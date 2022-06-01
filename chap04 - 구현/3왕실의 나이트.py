@@ -5,6 +5,9 @@
 # 더했을때의 좌표값이 맵을 넘어가지 않는지 여부 판단하기 
 # 넘어가지 않았을때에만 카운트 올리기 
 
+import sys
+sys.stdin=open("chap04 - 구현/3.txt", "rt")
+
 area = input()
 row = int(area[1])
 column = int(ord(area[0])) - int(ord('a')) + 1 # 좌표값구현하기 -> 알파벳 좌표로 변환하기 ! 

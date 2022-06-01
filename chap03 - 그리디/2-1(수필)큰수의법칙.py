@@ -1,3 +1,6 @@
+import sys
+sys.stdin=open("chap03 - 그리디/2.txt", "rt")
+
 n, m , k = map(int, input().split())
 
 index = list(map(int, input().split()))
@@ -14,3 +17,4 @@ numreg = m - numt
 result = numt*token + numreg*first
 
 print(result)
+

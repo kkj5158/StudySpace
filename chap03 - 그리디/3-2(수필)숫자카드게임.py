@@ -1,3 +1,6 @@
+import sys
+sys.stdin=open("chap03 - 그리디/3.txt", "rt")
+
 n, m = map(int, input().split())
 
 result = 0

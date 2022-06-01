@@ -1,3 +1,6 @@
+import sys
+sys.stdin=open("chap04 - 구현/1.txt", "rt")
+
 n = int(input())
 paths = input().split() # 리스트도 따로 선언없이 파이썬의 다음과 같이 간단한 구조로 받을 수 있다. 
 x, y = 1, 1

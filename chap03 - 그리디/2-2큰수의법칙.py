@@ -1,4 +1,5 @@
-
+import sys
+sys.stdin=open("chap03 - 그리디/2.txt", "rt")
 # 입력 구현하기 
 # 배열 정렬하기 
 # 두번째 숫자 덧셈 횟구 구하기 -> m // k + 1 

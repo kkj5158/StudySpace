@@ -5,6 +5,9 @@
 ## 솔루션 보지 말고 반드시 혼자 힘으로 해결하기 
 
 
+import sys
+sys.stdin=open("chap05 - DFS, BFS/10.txt", "rt")
+
 graph = []
 
 count = 0 

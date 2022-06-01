@@ -1,5 +1,8 @@
 # python for문의 range는 미만을 의미한다 for i in range(10) -> i는0~9 까지 변경된다. 
 
+import sys
+sys.stdin=open("chap04 - 구현/2.txt", "rt")
+
 h = int(input())
 
 count = 0

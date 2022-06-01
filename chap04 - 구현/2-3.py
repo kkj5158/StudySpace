@@ -1,3 +1,6 @@
+import sys
+sys.stdin=open("chap04 - 구현/2.txt", "rt")
+
 # 시간, 분 , 초 따로따로 입력받기 
 # 3중 for문 작성해서 count 세기 
 # 

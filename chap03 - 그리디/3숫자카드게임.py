@@ -1,3 +1,5 @@
+import sys
+sys.stdin=open("chap03 - 그리디/3.txt", "rt")
 # N, M을 공백을 기준으로 구분하여 입력 받기
 n, m = map(int, input().split())
 

@@ -2,6 +2,10 @@
 
 # end 이동가능한 경우의 수 출력하기 
 
+
+import sys
+sys.stdin=open("chap04 - 구현/3.txt", "rt")
+
 loc = input()
 
 x = ord(loc[0]) - ord('a') + 1

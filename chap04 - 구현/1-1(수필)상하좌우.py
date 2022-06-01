@@ -1,4 +1,8 @@
 # type error 체크하기 
+import sys
+sys.stdin=open("chap04 - 구현/1.txt", "rt")
+
+
 n = map(int, input().split())
 x, y = 1, 1
 
