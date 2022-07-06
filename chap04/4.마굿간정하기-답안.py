@@ -25,7 +25,6 @@ lt = 1
 rt = Line[n-1]
 
 
-
 while lt<=rt:
     mid=(lt+rt)//2
     if Count(mid)>=c:
