@@ -3,10 +3,13 @@ sys.stdin=open("chap04/9.txt", "rt")
 
 n = int(input())
 a = list(map(int, input().split()))
+
 lt = 0 
 rt = n-1
+
 last = 0
 res = ""
+
 tmp = []
 
 while lt<=rt:
@@ -21,10 +24,10 @@ while lt<=rt:
         res=res+tmp[0][1]
         last = tmp[0][0]
         if tmp[0][1] == 'L':
-            lt +=1
+            lt+=1
         else:
             rt-=1
-    tmp.clear()
+        tmp.clear()
 
 print(len(res))
 print(res)
