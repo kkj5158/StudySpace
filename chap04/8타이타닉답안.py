@@ -20,7 +20,7 @@ while p:
         p.pop()
         cnt+=1
     else:
-        p.popleft(0)
+        p.popleft()
         p.pop()
         cnt+=1
 
