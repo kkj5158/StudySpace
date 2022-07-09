@@ -12,13 +12,15 @@ public class Delivery {
 
     @Id
     @GeneratedValue
+    @Column(name = "delivery_id")
     private Long id;
 
-    @OneToOne
+    @OneToOne(mappedBy = "delivery", fetch = FetchType.LAZY)
     private Order order;
 
     @Embedded
     private Address address;
 
-    private DeliveryStauts stauts;
+    @Enumerated(EnumType.STRING)
+    private DeliveryStauts status;
 }
