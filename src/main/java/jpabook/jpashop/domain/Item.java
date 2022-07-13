@@ -36,4 +36,6 @@ public abstract class Item {
     }
 
 
+    public void addStock(int count) {
+    }
 }
