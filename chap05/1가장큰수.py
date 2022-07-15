@@ -7,6 +7,8 @@ num = list(str(num))
 
 # 5276823 # 7823 
 
+# 딱 3개만 제거가능하도록 -> 1개씩 제거하도록 알고리즘 다시 짜기 
+
 st = []
 
 cnt=0
@@ -20,8 +22,10 @@ for a in num[1:]:
         st.append(a)
     else:
         if(tmp < a):
-            n = n-len(st)
-            st.clear()
+            if n==0:
+            st.pop()
+            n=n-1
+            
             st.append(a)
             tmp=a
         else:
@@ -34,3 +38,5 @@ print(st)
 
 
 # 해결방법 고민해보기 ! 
+
+# 조건에 대한 정리 

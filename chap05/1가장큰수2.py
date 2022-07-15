@@ -1,3 +1,7 @@
+from inspect import stack
+import sys
+sys.stdin=open("chap05/1.txt", "rt")
+
 num , n = map(int, input().split())
 
 num = list(map(int, str(num)))
@@ -29,6 +33,4 @@ for b in st:
     print(b , end='')
 
 # 5 번 예외 수정하기 
-
-
 
