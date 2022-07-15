@@ -18,10 +18,13 @@ import static org.junit.Assert.fail;
 @SpringBootTest
 @Transactional
 public class OrderServiceTest {
+
     @PersistenceContext
     EntityManager em;
+
     @Autowired OrderService orderService;
     @Autowired OrderRepository orderRepository;
+
     @Test
     public void 상품주문() throws Exception {
         //Given
@@ -41,6 +44,7 @@ public class OrderServiceTest {
                 getOrder.getTotalPrice());
         assertEquals("주문 수량만큼 재고가 줄어야 한다.",8, item.getStockQuantity());
     }
+
     @Test(expected = NotEnoughStockException.class)
     public void 상품주문_재고수량초과() throws Exception {
         //Given

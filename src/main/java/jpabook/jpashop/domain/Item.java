@@ -36,6 +36,9 @@ public abstract class Item {
     }
 
 
-    public void addStock(int count) {
+    public void addStock(int quantity) {
+
+        this.stockQuantity += quantity;
+
     }
 }

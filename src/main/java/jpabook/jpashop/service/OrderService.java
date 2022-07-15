@@ -40,7 +40,7 @@ public class OrderService {
     }
 
     @Transactional
-    public void cancleOrder(Long orderId){
+    public void cancelOrder(Long orderId){
 
         Order order = orderRepository.findOne(orderId);
 
