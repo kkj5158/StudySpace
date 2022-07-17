@@ -23,8 +23,8 @@ for a in num[1:]:
     else:
         if(tmp < a):
             if n==0:
-            st.pop()
-            n=n-1
+                st.pop()
+                n=n-1
             
             st.append(a)
             tmp=a
