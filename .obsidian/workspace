@@ -7,8 +7,12 @@
         "id": "7d895e496ed652df",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -57,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 594.4999980926514
   },
   "right": {
     "id": "ef2f2520eb8f99a9",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md"
+              }
             }
           }
         ]
@@ -121,5 +129,16 @@
     "collapsed": true
   },
   "active": "7d895e496ed652df",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Engineer/Engineer/UltraLearner/스터디코드/수학의코드.md",
+    "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
+    "Engineer/Engineer/UltraLearner/제텔카스텐/제텔카스텐은 상향식 노트 관리기법이다 ..md",
+    "Engineer/Engineer/UltraLearner/제텔카스텐/제텔카스텐 소개.md",
+    "작업환경동기화/원드라이브를 이용한 작업환경동기화.md",
+    "Engineer/Engineer/UltraLearner/스터디코드/Code 1 해결책 모색력은 가져다 쓰기 능력이다..md",
+    "Engineer/Engineer/Writer(brunch)/출판물들관리.md",
+    "Engineer/Engineer/UltraLearner/제텔카스텐/제텔카스텐.md",
+    "Engineer/Engineer/UltraLearner/제텔카스텐/임시노트는 하나의 주제만을 담아야한다.(간결성).md",
+    "Engineer/Engineer/아아아.md"
+  ]
 }
