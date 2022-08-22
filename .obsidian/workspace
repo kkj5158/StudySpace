@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7d895e496ed652df",
+        "id": "c67eba9d3e0b4c62",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -61,7 +57,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 594.4999980926514
+    "width": 594.4999980926514,
+    "collapsed": true
   },
   "right": {
     "id": "ef2f2520eb8f99a9",
@@ -77,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +90,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +111,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,17 +121,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7d895e496ed652df",
+  "active": "c67eba9d3e0b4c62",
   "lastOpenFiles": [
-    "Engineer/Engineer/UltraLearner/스터디코드/수학의코드.md",
-    "Engineer/Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
-    "Engineer/Engineer/UltraLearner/제텔카스텐/제텔카스텐은 상향식 노트 관리기법이다 ..md",
-    "Engineer/Engineer/UltraLearner/제텔카스텐/제텔카스텐 소개.md",
-    "작업환경동기화/원드라이브를 이용한 작업환경동기화.md",
-    "Engineer/Engineer/UltraLearner/스터디코드/Code 1 해결책 모색력은 가져다 쓰기 능력이다..md",
-    "Engineer/Engineer/Writer(brunch)/출판물들관리.md",
-    "Engineer/Engineer/UltraLearner/제텔카스텐/제텔카스텐.md",
+    "Trainer/최종목표/운동선수.트레이너 목표의 최종 도착지.md",
+    "Trainer/최종목표/3대운동, 5대운동 프리웨이트 기본기에 대해서.md",
+    "Engineer/Engineer/UltraLearner/QSC/QSC  시스템의 전체활용.md",
+    "Engineer/Engineer/UltraLearner/QSC/QSC 시스템 역시 제텔카스텐과 동일한 시스템이다 ..md",
+    "Engineer/Engineer/UltraLearner/칸반보드.스택의활용/칸반보드와 스택의 활용철학.md",
     "Engineer/Engineer/UltraLearner/제텔카스텐/임시노트는 하나의 주제만을 담아야한다.(간결성).md",
-    "Engineer/Engineer/아아아.md"
+    "Engineer/Engineer/UltraLearner/칸반보드.스택의활용/CCC 개강 수련회.md",
+    "Engineer/Engineer/UltraLearner/칸반보드.스택의활용/활용철학(규칙)의 필요성.md",
+    "Engineer/Engineer/UltraLearner/스터디코드/수학의코드.md",
+    "Engineer/Engineer/UltraLearner/제텔카스텐/제텔카스텐.md"
   ]
 }
