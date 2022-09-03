@@ -1,3 +1,6 @@
+import sys
+sys.stdin=open("chap05/1.txt", "rt")
+
 num , n = map(int, input().split())
 
 arr = list(str(num))
@@ -34,5 +37,10 @@ while n>0:
 print(*st ,sep='')
 
 
+    
+
+    
+
+  
 
 
