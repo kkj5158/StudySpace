@@ -1,3 +1,7 @@
+from inspect import stack
+import sys
+sys.stdin=open("chap05/1.txt", "rt")
+
 arr , cnt = map(int, input().split())
 
 arr = list(map(int, str(arr)))
