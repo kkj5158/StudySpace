@@ -1,4 +1,8 @@
 from collections import deque
+import sys
+
+sys.stdin=open("chap05/6.txt", "r")
+
 
 def getmax(a):
     max = 0
@@ -28,3 +32,22 @@ while True:
             break
 
 print(cnt)
+
+
+
+# 5 2 
+# 60 50 70 80 90
+
+# 50 70 80 90 60
+
+# 70 50 80 90 60  
+
+# 반복문은 해당 번호가 나올때까지 반복한다 . 
+# max값보다 작으면 push, max값과 동일하거나 크면 pop하고 카운트를 1올린다. 
+
+
+# 60 60 90 60 60 60
+
+
+
+

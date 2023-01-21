@@ -1,5 +1,7 @@
 from collections import deque
+import sys
 
+sys.stdin=open("chap05/7.txt", "r")
 
 def isorderequal(a, b):
 
@@ -67,3 +69,5 @@ for i in range(len(lst)):
         print("#" + str(cnt) + " NO")
 
         
+
+

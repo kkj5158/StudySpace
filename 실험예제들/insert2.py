@@ -1,8 +1,7 @@
-a = [0]*10
 
-a.insert(0, 1)
-a.insert(10, 1)
+lst = [i for i in range(10)]
 
-print(a)
+tup = (i for i in lst)
 
-# insert는 대체함수가 아니다. 
+print(lst)
+print(tup)
