@@ -1,5 +1,7 @@
 from collections import deque
+import sys
 
+sys.stdin=open("chap05/9.txt", "r")
 
 w1 = deque(str(input()))
 w2 = deque(str(input()))

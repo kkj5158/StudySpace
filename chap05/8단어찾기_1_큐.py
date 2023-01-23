@@ -1,4 +1,7 @@
 from collections import deque
+import sys
+
+sys.stdin=open("chap05/8.txt", "r")
 
 n = int(input())
 
