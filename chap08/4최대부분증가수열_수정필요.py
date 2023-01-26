@@ -35,7 +35,7 @@ n = int(input())
 nums = list(map(int,input().split()))
 
 # 최대길이. 이전 선택 최대값. 선택최대값
-dp = [[0, 1, 1]]*(n)
+dp = [[0, 1, 1] for _ in range(n)] 
 
 for pos, val in enumerate(nums):
   if pos == 0:

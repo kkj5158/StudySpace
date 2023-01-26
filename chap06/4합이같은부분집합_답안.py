@@ -1,5 +1,6 @@
 import sys
-sys.stdin=open("input.txt", "r")
+
+sys.stdin=open("chap06/4.txt", "r")
 
 def DFS(L, sum):
     if sum>total//2:

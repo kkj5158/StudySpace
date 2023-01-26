@@ -2,13 +2,17 @@ import sys
 
 sys.stdin=open("chap06/2.txt", "r")
 
+# 전위순회 
+
 def DFS(v):
     if v>7:
         return
-    else:  
-        print(v, end=' ')
+    else:
         DFS(v*2)
+        print(v, end='')
         DFS(v*2+1)
-        
-if __name__=="__main__":
-    DFS(1)
+
+
+# dfs는 재귀를 통해서 구현한다. 
+
+DFS(1) 
