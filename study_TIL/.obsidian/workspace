@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "26a107e7a91ef47e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c67eba9d3e0b4c62",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Writer/브런치/브런치 작가등록.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "853f9d96e3ccfe94",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f530259fd692198",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "070ec3aca649d2f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1a6b9cbced48c64b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dd2d9a3c73776f29",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 551.5
+  },
+  "right": {
+    "id": "ef2f2520eb8f99a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed9e2afd0e2f472d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c68271c704116e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Writer/브런치/브런치 작가등록.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "98e022bf81b888f6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Writer/브런치/브런치 작가등록.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00e4a891b9f5b1b7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2e1614eefaf72f5e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Writer/브런치/브런치 작가등록.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c67eba9d3e0b4c62",
+  "lastOpenFiles": [
+    "Writer/브런치/외로움을 덜어내는법.md",
+    "Writer/독후감/사랑의 기술.md",
+    "Writer/독후감/이방인.md",
+    "Writer/독후감/우리는 여전히 삶을 사랑하는가.md",
+    "Writer/독후감/삶을 향한 비극적인 묘사.md",
+    "Writer/독후감/삶과 인간을 바라보는 시선.md",
+    "Writer/독후감/비극의 진실과, 희망.md",
+    "Writer/독후감/뫼르소와 세상의 닮음.md",
+    "Writer/브런치/브런치 작가등록.md",
+    "Engineer/Engineer/UltraLearner/스터디코드/알고리즘의 코드.md"
+  ]
+}

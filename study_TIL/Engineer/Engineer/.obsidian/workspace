@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "35eefba1247a48f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "17b72bb0392a2bf3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "아아아.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "841496c4d9a188f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "390815cf00c28e60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35f6cd505cad3637",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "77d30ddc3170349e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e5a221dba5f38fc7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8a870ff1c7f3189c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec37ae3ed8bff4f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14093e3cb0ec62ad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "아아아.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "88692b1b5ad235ae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "아아아.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a9dca283ebcc5c92",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cb02cdde9ebdd362",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "아아아.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "17b72bb0392a2bf3",
+  "lastOpenFiles": [
+    "Writer(brunch)/출판물들관리.md"
+  ]
+}

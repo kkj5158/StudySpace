@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "602115eb45c2be86",
+    "type": "split",
+    "children": [
+      {
+        "id": "8603d068599992d1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Engineer/Writer(brunch)/출판물들관리.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "40991152264e6c34",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Engineer/UltraLearner/제텔카스텐/제텔카스텐 소개.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e860346e634a707c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea9374f424fcb22a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfd81d4a86bc01a9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8667b978711b6791",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5141724e46f81c71",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "96f86f94d9e35ff2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4fd916dbdaf989e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4aa0d81771a84390",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Engineer/Writer(brunch)/출판물들관리.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8d6cd2fb8b41e9ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Engineer/Writer(brunch)/출판물들관리.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a5e7e606fcf20ee6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2541a373859e076d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Engineer/Writer(brunch)/출판물들관리.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8603d068599992d1",
+  "lastOpenFiles": [
+    "죄책감.md",
+    "감정에 대해서.md",
+    "Engineer/UltraLearner/스터디코드/수학의코드.md",
+    "Engineer/UltraLearner/제텔카스텐/제텔카스텐 소개.md",
+    "Engineer/UltraLearner/제텔카스텐/제텔카스텐.md",
+    "Engineer/UltraLearner/제텔카스텐/임시노트는 하나의 주제만을 담아야한다.(간결성).md",
+    "Engineer/UltraLearner/제텔카스텐/제텔카스텐은 상향식 노트 관리기법이다 ..md",
+    "무제노트.md",
+    "Engineer/UltraLearner/스터디코드/Code 0 수학은 조건과 문제 사이의  해결책 모색력 이다..md",
+    "데일리노트/2022-08-20.md"
+  ]
+}
