@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+<h1> text vs utext </h1>
+
+<ul>
+    <li>th:text = <span th:text="${data}"></span></li>
+    <li>th:utext = <span th:utext="${data}"></span></li>
+</ul>
+
+<h1><span th:inline="none">[[...]] vs [(...)]</span></h1>
+<ul>
+    <!--이스케이프 기능 사용 -> 태그 변환 하기  -->
+    <li><span th:inline="none">[[...]] = </span>[[${data}]]</li>
+
+    <!--이스케이프 기능 미사용 -> 태그 변환 기능 끄기   -->
+
+    <li><span th:inline="none">[(...)] = </span>[(${data})]</li>
+
+    <!--이스케이프 기능의 필요성  -> 이스케이프 기능이 꺼져있는 상황에서는 사용자의 부주의한 입력으로 , html 입력이 모두 깨져버릴 수 있다.   -->
+
+</ul>
+
+</body>
+
+</html>
