@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 480px;
+    margin: 40px auto;
+}
+
+h1{
+    font-size: 2em;
+    margin:10px;
+}
+
+fieldset legend{
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin: 0;
+}
+
+#product input[type = "number"]{
+    width:30px;
+}
