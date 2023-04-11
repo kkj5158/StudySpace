@@ -1,0 +1,51 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.7.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+       // jcenter() // jceneter 저장소 (라이브러리 저장소) 서비스 종료
+    }
+// 왜 repositories 코드가 2곳에 나뉘어서 저장될까 .
+    dependencies{
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group 'com.jojoldu.book'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    //jcenter()
+
+    //repositories 란 무엇인가, jcenter , mavaencetral 의 차이점은 무엇이고 , 최근 jcenter 를 사용하지 못하는 이유는 무엇인가.
+}
+
+dependencies{
+
+    //compile('org.springframework.boot:spring-boot-starter-web')
+    //testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    // compile , testCompile 의 차이점은 무엇인가. 현재 버전에서 compile과 testcompile 시 의존성 추가가 되지 않는 이유는 무엇인가 ?
+
+    implementation('org.springframework.boot:spring-boot-starter-web')
+
+    implementation('org.springframework.boot:spring-boot-starter-test')
+
+
+
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+    implementation('com.h2database:h2')
+
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+}
+
