@@ -1,0 +1,35 @@
+https://wikidocs.net/25
+
+1. input은 입력되는 모든 것을 문자열로 취급한다.
+
+>>> a = input()
+Life is too short, you need python
+>>> a
+'Life is too short, you need python'
+>>>
+
+input("질문 내용")
+
+다음 예를 직접 입력해 보자.
+
+>>> number = input("숫자를 입력하세요: ")
+숫자를 입력하세요:
+위와 같은 질문을 볼 수 있을 것이다
+
+-----------------------------------------------------------------
+
+2. input 으로 입력받은 데이터 type 변경하기 
+
+i = 0
+result = 0
+while i < 5:
+    a = input("성적 입력 : ")
+    result += int(a)
+    i += 1
+ 
+ 
+print(f'평균 : {result / 5}')
+ 
+
+
+출처: https://blockdmask.tistory.com/462 [개발자 지망생]
